@@ -317,3 +317,50 @@ p, a {
     }
   }
   
+  .footer {
+    background: rgb(7, 11, 12);
+    padding-top: 2rem;
+  
+    .footer-wrapper {
+      display: grid;
+      gap: 1.5rem;
+      padding: 3% 0;
+  
+      .footer-section {
+        h2 {
+          color: #fff;
+          margin-bottom: .75rem;
+        }
+        .footer-menu {
+          width: 100%;
+          li {
+            margin: .5rem 0;
+            a {
+              color: #2aad86;
+            }
+          }
+        }
+      }
+    }
+  
+    .rights {
+      text-align: center;
+      color: #fff;
+      margin-top: 1.2rem;
+      padding: 1rem 0;
+  
+      background: linear-gradient(to right, rgb(26, 35, 37), rgb(32, 41, 43));
+  
+      a {
+        color:#2aad86;
+      }
+    }
+  
+    @media screen and (min-width: 768px) {
+      .footer-wrapper {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        margin: 2rem auto 1rem;
+      }
+    }
+  }
+  
