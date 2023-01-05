@@ -1,5 +1,5 @@
 # EAD Project
 
-A simple hobby project in **HTML** and **CSS**.
+A simple hobby project in **HTML**, **SASS** and **CSS**.
 
 
